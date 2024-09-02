@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+:root {
+  --background-color: #101414;
+  --text-color: #f0efee;
+  --primary-color: #fbab04;
+  --secondary-color: #9b9ba3;
+  --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "ABeeZee", sans-serif;
+}
+
+.light {
+  --background-color: #f0efee;
+  --text-color: #101414;
+  --primary-color: #a3243b;
+  --secondary-color: #323232;
+}
+
+body {
+  position: relative;
+}
+
+.Overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  mix-blend-mode: multiply;
+  background-repeat: repeat;
+  pointer-events: none;
+  background-image: url("../public/paper-overlay.jpg");
+}
