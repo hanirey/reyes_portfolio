@@ -2,10 +2,10 @@ import React from "react";
 import "./projects.css";
 import Card from "../components/card.jsx";
 
-const proj1Url = "/proj1.png";
-const proj2Url = "/proj2.png";
-const proj3Url = "/proj3.png";
-const proj4Url = "/proj4.png";
+import proj1Url from "../../public/proj1.png";
+import proj2Url from "../../public/proj2.png";
+import proj3Url from "../../public/proj3.png";
+import proj4Url from "../../public/proj4.png";
 
 function Projects() {
   return (
