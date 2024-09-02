@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://github.com/hanirey/reyes_portfolio.git",
+  "homepage": "https://hanirey.github.io/reyes_portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
